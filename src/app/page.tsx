@@ -1,10 +1,6 @@
 import { Button } from 'antd';
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return (
-    <div>
-      <h1>Form Layout Editor</h1>
-      <Button type='primary'>Button </Button>
-    </div>
-  );
+  redirect('/home')
 }
